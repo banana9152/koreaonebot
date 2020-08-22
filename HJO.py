@@ -50,5 +50,5 @@ async def on_member_remove(member):
 
 
 
-
-client.run('NzQ2Mzg0NjAwMTEyMDM4MDE0.Xz_i0w.Zz5gLkH1sP-TRwXwCcb7WUZZiCI')
+access_token = os.environ[BOT_TOKEN]
+client.run('access_token')
